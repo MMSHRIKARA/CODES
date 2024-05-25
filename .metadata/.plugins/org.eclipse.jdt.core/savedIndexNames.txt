@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\mmsrik\OneDrive - Capgemini\Desktop\CG\CODES\.metadata\.plugins\org.eclipse.jdt.core
-2886423489.index
-1865797976.index
-4288071203.index
