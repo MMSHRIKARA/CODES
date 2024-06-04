@@ -4,16 +4,18 @@ public class ToggleWord {
 	public static void main(String[] args) {
 		String[] str = { "SHivu", "Surendra", "SAngamesh", "Kaizer" };
 		for (int i = 0; i < str.length; i++) {
-			char[] str1 = str[i].toCharArray();
-			if (Character.isUpperCase(str1[1])) {
-				str1[1]=Character.toLowerCase(str1[1]);
+			char[] ch = str[i].toCharArray();
+			if (Character.isUpperCase(ch[1])) {
+				ch[1] = Character.toLowerCase(ch[1]);
+				
 			}
 			else{
-				str1[1]=Character.toUpperCase(str1[1]);
+				ch[1] = Character.toUpperCase(ch[1]);
 			}
 			
 
-			System.out.print(str1);
+			str[i] = new String(ch); 
+			System.out.print(str[i]+" ");
 			
 		}
 	}
